@@ -100,7 +100,7 @@
 
      Saare reducers ko ek jagah combine karta hai.
 
-# Ye redux-persist ka configuration hai. Line by line samajhte hain. :
+   # Ye redux-persist ka configuration hai. Line by line samajhte hain. :
 
 
   const persistConfig = {
@@ -108,7 +108,7 @@
     storage,
   };
   persistConfig kya hai? 
-  
+
   Ye ek configuration object hai jo redux-persist ko batata hai:
   
   Data kahan save karna hai.
@@ -117,3 +117,5 @@
   key: "root"
   
   key ka matlab hai Local Storage me kis naam se data save hoga.
+
+
