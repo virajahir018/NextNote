@@ -83,4 +83,6 @@
 
    # Redux Persist :
 
-     Redux Persist Redux Store ka data browser ke storage me save karta hai. Isliye page refresh karne ke baad bhi Cart aur Wishlist ka data delete nahi hota. User ke products waise hi rehte hain.
+     Redux Persist Redux Store ka data browser ke storage me save karta hai. 
+     Isliye page refresh karne ke baad bhi Cart aur Wishlist ka data delete nahi hota. 
+     User ke products waise hi rehte hain.
