@@ -109,7 +109,6 @@
   };
   persistConfig kya hai? 
   
-  
   Ye ek configuration object hai jo redux-persist ko batata hai:
   
   Data kahan save karna hai.
