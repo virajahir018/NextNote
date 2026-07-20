@@ -100,15 +100,15 @@
 
      Saare reducers ko ek jagah combine karta hai.
 
-# 
+# Ye redux-persist ka configuration hai. Line by line samajhte hain. :
 
-<!-- 
+
 const persistConfig = {
   key: "root",
   storage,
 };
 persistConfig kya hai? 
--->
+
 
 Ye ek configuration object hai jo redux-persist ko batata hai:
 
