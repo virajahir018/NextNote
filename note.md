@@ -86,3 +86,35 @@
      Redux Persist Redux Store ka data browser ke storage me save karta hai. 
      Isliye page refresh karne ke baad bhi Cart aur Wishlist ka data delete nahi hota. 
      User ke products waise hi rehte hain.
+
+     Redux Persist khud hi Redux Store ko save aur restore kar deta hai.
+
+   # Ye code kya karta hai? :
+
+     # 1.
+     const rootReducer = combineReducers({
+        cart,
+        search,
+        wishlist,
+     });
+
+     Saare reducers ko ek jagah combine karta hai.
+
+# 
+
+<!-- 
+const persistConfig = {
+  key: "root",
+  storage,
+};
+persistConfig kya hai? 
+-->
+
+Ye ek configuration object hai jo redux-persist ko batata hai:
+
+Data kahan save karna hai.
+Kis naam se save karna hai.
+key: "root"
+key: "root"
+
+key ka matlab hai Local Storage me kis naam se data save hoga.
