@@ -136,3 +136,7 @@
        storage
        
        Ye batata hai data kahan store hoga.
+
+# Who created React?
+     React was created by Jordan Walke at              Facebook (now Meta).
+ React को Jordan Walke ने बनाया और इसे             Facebook ने विकसित किया।
