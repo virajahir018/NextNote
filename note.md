@@ -120,4 +120,27 @@
       key ka matlab hai Local Storage me kis naam se data save hoga. 
 
 
+<<<<<<< HEAD
    =======================================================================
+=======
+   # Aur uske andar Redux ka data rahega. :
+
+       "root" tum koi aur naam bhi rakh sakte ho:
+    
+       key: "myntra"
+       
+       Phir Local Storage me key hogi:
+       
+       persist:myntra
+       
+       Lekin generally "root" hi use kiya jata hai.
+       
+       storage
+       storage
+       
+       Ye batata hai data kahan store hoga.
+
+# Who created React?
+     React was created by Jordan Walke at              Facebook (now Meta).
+ React को Jordan Walke ने बनाया और इसे             Facebook ने विकसित किया।
+>>>>>>> 6935c812dcddae2355bcace07dcc817beef3f372
