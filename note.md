@@ -274,3 +274,14 @@
 
      Dynamic Routing :
        <Route path="/product/:id" element={<Product />} />
+
+     useParams :
+       Dynamic value lene ke liye.
+
+       const { id } = useParams();
+
+     Nested Routing :
+       Dashboard ke andar aur pages.
+
+     useNavigate :
+       Button click se page change karna.
