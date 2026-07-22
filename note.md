@@ -165,7 +165,8 @@
     State stores data that can change over time.
     
     Hindi:
-    State wo data hota hai jo application chalne ke dauran change ho sakta hai.
+    State wo data hota hai jo application chalne ke dauran 
+    change ho sakta hai.
     
     Example
     
@@ -191,3 +192,85 @@
     Read-only	                     Change ho sakta hai
     Child change nahi kar sakta	   setState (setCount, setUser, etc.) se change hota hai
     Parent control karta hai	      Component khud control karta hai
+
+
+# What is a Hook ?
+   
+    English:
+    Hooks allow you to use React features (like state and lifecycle) 
+    inside functional components.
+    
+    Hindi:
+    Hooks ki madad se hum Functional Components me State, 
+    Side Effects aur doosre React features use kar sakte hain. 
+
+    1. useState :
+       Component ke andar data store aur update karna.
+
+    2. useEffect :
+       Component render hone ke baad koi kaam karna.
+
+       Empty Dependency Array [] :
+          Sirf first render par chalega.
+
+       Dependency [count] :
+          Sirf count change hone par chalega.
+
+    3. useRef :
+       DOM ko access karna
+       Value ko re-render ke bina store karna
+
+       kisi value ko remember rakhta hai bina component ko dobara render kiye.
+
+       Button click karne par :
+        Cursor input me aa jayega.
+
+    4. useContext Hook :
+       useContext ek React Hook hai jo data ko ek component se dusre component 
+       tak bina props pass kiye share karne ke liye use hota hai.
+
+       Isse Prop Drilling ki problem solve hoti hai.
+
+    5. useMemo :
+       ek React Hook hai jo expensive calculation ka result memory me save (memoize) karta hai, 
+       taaki har render par dobara calculation na ho.
+
+       Dependency badlegi tabhi naya result banega.
+
+    6. useCallback Hook :
+       ek React Hook hai jo function ko memory me save (memoize) karta hai, 
+       taaki har render par naya function create na ho. 
+
+# Attach Css :
+    External CSS
+    Inline CSS
+    CSS Modules
+
+# Image Attach :
+
+    1. public Folder :
+       public folder ki files browser directly access kar sakta hai.
+
+    2. src/assets :
+       src/assets ki files React project ka hissa hoti hain aur bundle me include hoti hain.
+
+    3. Image from URL (Online Image) 
+   
+
+# What is Routing ?
+    English :
+    Routing is the process of navigating between different pages in a React application without reloading the entire page.
+    
+    Hindi :
+    Routing ka matlab hai application ke alag-alag pages ke beech bina page reload kiye switch karna.
+
+     Step 1: BrowserRouter :
+       React app ko BrowserRouter ke andar wrap karte hain.
+
+       BrowserRouter routing ko enable karta hai.
+
+     Navigation :
+       Page change karne ke liye <Link> use karte hain.
+
+     Dynamic Routing :
+       <Route path="/product/:id" element={<Product />} />
