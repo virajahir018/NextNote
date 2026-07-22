@@ -117,22 +117,7 @@
       key: "root"
       key: "root"
       
-      key ka matlab hai Local Storage me kis naam se data save hoga.
+      key ka matlab hai Local Storage me kis naam se data save hoga. 
 
 
-   # Aur uske andar Redux ka data rahega. :
-
-       "root" tum koi aur naam bhi rakh sakte ho:
-    
-       key: "myntra"
-       
-       Phir Local Storage me key hogi:
-       
-       persist:myntra
-       
-       Lekin generally "root" hi use kiya jata hai.
-       
-       storage
-       storage
-       
-       Ye batata hai data kahan store hoga.
+   =======================================================================
