@@ -142,3 +142,52 @@
 
 
  ==========================================================================
+
+ # What is a Props ?
+
+     English:
+     Props (Properties) are used to pass data from a Parent Component to a Child Component.
+   
+    Hindi:
+    Props ka use Parent Component se Child Component ko data bhejne ke liye hota hai.
+
+    # Parent data bhejta hai :
+    Child sirf receive karta hai.
+    
+    # Destructuring :
+    Props ko baar baar likhne ki zarurat nahi.
+
+    Props kisi bhi type ke ho sakte hain
+
+# What is a State ?
+
+    English:
+    State stores data that can change over time.
+    
+    Hindi:
+    State wo data hota hai jo application chalne ke dauran change ho sakta hai.
+    
+    Example
+    
+    Counter
+    Like Button
+    Cart
+    Dark Mode
+    Login
+    
+    Ye sab state hain.
+
+    count
+
+    Current value.
+    
+    setCount
+    
+    Value change karta hai.
+
+
+#   Props          vs                    State
+    Parent se aata hai	            Component ke andar hota hai
+    Read-only	                     Change ho sakta hai
+    Child change nahi kar sakta	   setState (setCount, setUser, etc.) se change hota hai
+    Parent control karta hai	      Component khud control karta hai
