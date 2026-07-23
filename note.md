@@ -136,10 +136,41 @@
        
        Ye batata hai data kahan store hoga.
 
-# Who created React?
-     React was created by Jordan Walke at              Facebook (now Meta).
- React को Jordan Walke ने बनाया और इसे             Facebook ने विकसित किया।
+   # 1. configureStore
 
+          Redux Store banata hai.
+          
+          const store = configureStore({
+            reducer: ...
+          });
+          
+          Store ko tum ghar ki tarah samjho jahan saara data rehta hai.
+          
+          Redux Store
+          
+          Cart
+          Wishlist
+          Search
+
+
+   # 2. combineReducers
+
+          Alag-alag reducers ko ek reducer me combine karta hai.
+          
+          Tumhare paas 3 slices hain.
+          
+          Cart Slice
+          Search Slice         
+          Wishlist Slice
+          
+          Ye teeno milkar ek reducer banate hain.
+ 
+   # persistReducer :
+       Reducer ko Local Storage se connect karta hai.
+
+   # persistStore :
+       Redux state ko browser ke localStorage me save aur 
+       restore karta hai.
 
  ==========================================================================
 
