@@ -172,6 +172,37 @@
        Redux state ko browser ke localStorage me save aur 
        restore karta hai.
 
+   # Middleware kya hota hai? 
+       Jab tum Redux me koi action dispatch karte ho
+       To action seedha reducer ke paas nahi jata.
+       Pehle middleware ke paas jata hai.
+    
+       Middleware ka kaam hota hai:
+       
+       Action ko check karna
+       Error dikhana
+       Logging karna
+       API call handle karna
+       Warnings dena
+   
+   # getDefaultMiddleware kya hai ?
+       Redux Toolkit khud kuch middleware provide karta hai.
+
+       Ye default middleware ki list return karta hai.
+
+       Jaise:
+       
+       serializableCheck
+       immutableCheck
+       thunk
+       
+       Tumhe ye sab manually add nahi karne padte.
+
+   # serializableCheck kya hota hai ?
+
+       Redux chahta hai ki Store me sirf Serializable Data ho.
+       Serializable matlab aisa data jo JSON me convert ho sake.
+
  ==========================================================================
 
  # What is a Props ?
