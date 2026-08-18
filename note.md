@@ -185,7 +185,8 @@
        API call handle karna
        Warnings dena
    
-   # getDefaultMiddleware kya hai ?
+   #
+    getDefaultMiddleware kya hai ?
        Redux Toolkit khud kuch middleware provide karta hai.
 
        Ye default middleware ki list return karta hai.
@@ -347,3 +348,32 @@
 
      useNavigate :
        Button click se page change karna.
+
+
+=================================================================================================
+
+
+# Map() :
+
+  # React me map() use karte waqt key dena bahut important hota hai ?
+
+    key={category.id}
+    Kyu?
+    
+    React ko pata chalta hai ki:
+    
+    Kaunsa item naya hai.
+    Kaunsa update hua.
+    Kaunsa delete hua.
+    
+    Isse rendering fast hoti hai. 
+
+   # Kaunsi key use karni chahiye id or index?
+
+    id unique hoti hai aur item add, delete ya reorder hone par bhi same rehti hai.
+
+
+# Filter() :
+ 
+  # Agar tumhe sirf ₹1000 se zyada price wale products dikhane hain, to kaunsa method use karoge?
+    Agar hume multiple products chahiye jo condition satisfy karte hain, to filter() use karte hain.
